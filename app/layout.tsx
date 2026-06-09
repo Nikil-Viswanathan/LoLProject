@@ -11,6 +11,15 @@ const displayFont = Space_Grotesk({
 export const metadata: Metadata = {
   title: "Rift Rankings | Higher or Lower",
   description: "Read the match. Call the stat.",
+  openGraph: {
+    title: "Rift Rankings | Higher or Lower",
+    description: "Read the match. Call the stat. A League of Legends Higher or Lower game.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Rift Rankings | Higher or Lower",
+    description: "Read the match. Call the stat. A League of Legends Higher or Lower game.",
+  },
 };
 
 export default function RootLayout({
